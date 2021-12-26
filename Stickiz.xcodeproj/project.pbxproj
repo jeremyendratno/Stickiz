@@ -14,7 +14,45 @@
 		321A726F277823D100E241F8 /* Stickiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 321A726D277823D100E241F8 /* Stickiz.xcdatamodeld */; };
 		321A7271277823D200E241F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321A7270277823D200E241F8 /* Assets.xcassets */; };
 		321A7274277823D200E241F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321A7272277823D200E241F8 /* LaunchScreen.storyboard */; };
+		321A727C277824F400E241F8 /* StickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A727B277824F400E241F8 /* StickModel.swift */; };
+		321A727E2778254D00E241F8 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A727D2778254D00E241F8 /* CoreData.swift */; };
+		321A728027783CAD00E241F8 /* DataDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A727F27783CAD00E241F8 /* DataDetailViewController.swift */; };
+		321A7282277847B600E241F8 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A7281277847B600E241F8 /* AddViewController.swift */; };
+		321A728A27785E0A00E241F8 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A728927785E0A00E241F8 /* KeyboardViewController.swift */; };
+		321A728E27785E0A00E241F8 /* Stickboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 321A728727785E0A00E241F8 /* Stickboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		321A729627785E4800E241F8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A729527785E4800E241F8 /* MainView.swift */; };
+		321A729827785E9300E241F8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A729727785E9300E241F8 /* DetailView.swift */; };
+		321A729F2778613100E241F8 /* StickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A727B277824F400E241F8 /* StickModel.swift */; };
+		321A72A3277862E900E241F8 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A72A2277862E900E241F8 /* SharedData.swift */; };
+		321A72A6277863DE00E241F8 /* Stickiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 321A726D277823D100E241F8 /* Stickiz.xcdatamodeld */; };
+		321A72A82778645200E241F8 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A72A2277862E900E241F8 /* SharedData.swift */; };
+		321A72AA2778661600E241F8 /* KeyboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A72A92778661600E241F8 /* KeyboardData.swift */; };
+		321A72AC277873BB00E241F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321A7270277823D200E241F8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		321A728C27785E0A00E241F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 321A7259277823D100E241F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 321A728627785E0A00E241F8;
+			remoteInfo = Stickboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		321A729227785E0A00E241F8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				321A728E27785E0A00E241F8 /* Stickboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		321A7261277823D100E241F8 /* Stickiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +64,30 @@
 		321A7270277823D200E241F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		321A7273277823D200E241F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		321A7275277823D200E241F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321A727B277824F400E241F8 /* StickModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickModel.swift; sourceTree = "<group>"; };
+		321A727D2778254D00E241F8 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		321A727F27783CAD00E241F8 /* DataDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDetailViewController.swift; sourceTree = "<group>"; };
+		321A7281277847B600E241F8 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		321A728727785E0A00E241F8 /* Stickboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stickboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		321A728927785E0A00E241F8 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		321A728B27785E0A00E241F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321A729527785E4800E241F8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		321A729727785E9300E241F8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		321A72A02778614800E241F8 /* Stickiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stickiz.entitlements; sourceTree = "<group>"; };
+		321A72A12778616C00E241F8 /* Stickboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stickboard.entitlements; sourceTree = "<group>"; };
+		321A72A2277862E900E241F8 /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+		321A72A92778661600E241F8 /* KeyboardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		321A725E277823D100E241F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321A728427785E0A00E241F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				321A7263277823D100E241F8 /* Stickiz */,
+				321A728827785E0A00E241F8 /* Stickboard */,
 				321A7262277823D100E241F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				321A7261277823D100E241F8 /* Stickiz.app */,
+				321A728727785E0A00E241F8 /* Stickboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +118,35 @@
 		321A7263277823D100E241F8 /* Stickiz */ = {
 			isa = PBXGroup;
 			children = (
+				321A72A02778614800E241F8 /* Stickiz.entitlements */,
 				321A7264277823D100E241F8 /* AppDelegate.swift */,
 				321A7266277823D100E241F8 /* SceneDelegate.swift */,
 				321A7268277823D100E241F8 /* ViewController.swift */,
+				321A727F27783CAD00E241F8 /* DataDetailViewController.swift */,
+				321A7281277847B600E241F8 /* AddViewController.swift */,
 				321A726A277823D100E241F8 /* Main.storyboard */,
 				321A7270277823D200E241F8 /* Assets.xcassets */,
 				321A7272277823D200E241F8 /* LaunchScreen.storyboard */,
 				321A7275277823D200E241F8 /* Info.plist */,
 				321A726D277823D100E241F8 /* Stickiz.xcdatamodeld */,
+				321A727B277824F400E241F8 /* StickModel.swift */,
+				321A727D2778254D00E241F8 /* CoreData.swift */,
+				321A72A2277862E900E241F8 /* SharedData.swift */,
 			);
 			path = Stickiz;
+			sourceTree = "<group>";
+		};
+		321A728827785E0A00E241F8 /* Stickboard */ = {
+			isa = PBXGroup;
+			children = (
+				321A72A12778616C00E241F8 /* Stickboard.entitlements */,
+				321A728927785E0A00E241F8 /* KeyboardViewController.swift */,
+				321A729527785E4800E241F8 /* MainView.swift */,
+				321A729727785E9300E241F8 /* DetailView.swift */,
+				321A728B27785E0A00E241F8 /* Info.plist */,
+				321A72A92778661600E241F8 /* KeyboardData.swift */,
+			);
+			path = Stickboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,15 +159,34 @@
 				321A725D277823D100E241F8 /* Sources */,
 				321A725E277823D100E241F8 /* Frameworks */,
 				321A725F277823D100E241F8 /* Resources */,
+				321A729227785E0A00E241F8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				321A728D27785E0A00E241F8 /* PBXTargetDependency */,
 			);
 			name = Stickiz;
 			productName = Stickiz;
 			productReference = 321A7261277823D100E241F8 /* Stickiz.app */;
 			productType = "com.apple.product-type.application";
+		};
+		321A728627785E0A00E241F8 /* Stickboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 321A728F27785E0A00E241F8 /* Build configuration list for PBXNativeTarget "Stickboard" */;
+			buildPhases = (
+				321A728327785E0A00E241F8 /* Sources */,
+				321A728427785E0A00E241F8 /* Frameworks */,
+				321A728527785E0A00E241F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stickboard;
+			productName = Stickboard;
+			productReference = 321A728727785E0A00E241F8 /* Stickboard.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +199,9 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					321A7260277823D100E241F8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					321A728627785E0A00E241F8 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -119,6 +220,7 @@
 			projectRoot = "";
 			targets = (
 				321A7260277823D100E241F8 /* Stickiz */,
+				321A728627785E0A00E241F8 /* Stickboard */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +236,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		321A728527785E0A00E241F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321A72AC277873BB00E241F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,14 +251,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321A72A3277862E900E241F8 /* SharedData.swift in Sources */,
 				321A7269277823D100E241F8 /* ViewController.swift in Sources */,
+				321A728027783CAD00E241F8 /* DataDetailViewController.swift in Sources */,
+				321A7282277847B600E241F8 /* AddViewController.swift in Sources */,
 				321A726F277823D100E241F8 /* Stickiz.xcdatamodeld in Sources */,
 				321A7265277823D100E241F8 /* AppDelegate.swift in Sources */,
+				321A727C277824F400E241F8 /* StickModel.swift in Sources */,
+				321A727E2778254D00E241F8 /* CoreData.swift in Sources */,
 				321A7267277823D100E241F8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		321A728327785E0A00E241F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321A729627785E4800E241F8 /* MainView.swift in Sources */,
+				321A72A82778645200E241F8 /* SharedData.swift in Sources */,
+				321A72AA2778661600E241F8 /* KeyboardData.swift in Sources */,
+				321A72A6277863DE00E241F8 /* Stickiz.xcdatamodeld in Sources */,
+				321A729827785E9300E241F8 /* DetailView.swift in Sources */,
+				321A729F2778613100E241F8 /* StickModel.swift in Sources */,
+				321A728A27785E0A00E241F8 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		321A728D27785E0A00E241F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 321A728627785E0A00E241F8 /* Stickboard */;
+			targetProxy = 321A728C27785E0A00E241F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		321A726A277823D100E241F8 /* Main.storyboard */ = {
@@ -289,8 +426,10 @@
 		321A7279277823D300E241F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stickiz/Stickiz.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CN329Q28W4;
@@ -317,8 +456,10 @@
 		321A727A277823D300E241F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stickiz/Stickiz.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CN329Q28W4;
@@ -342,6 +483,58 @@
 			};
 			name = Release;
 		};
+		321A729027785E0A00E241F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Stickboard/Stickboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN329Q28W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stickboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Stickboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Koron.Stickiz.Stickboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		321A729127785E0A00E241F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Stickboard/Stickboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN329Q28W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stickboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Stickboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Koron.Stickiz.Stickboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -359,6 +552,15 @@
 			buildConfigurations = (
 				321A7279277823D300E241F8 /* Debug */,
 				321A727A277823D300E241F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		321A728F27785E0A00E241F8 /* Build configuration list for PBXNativeTarget "Stickboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321A729027785E0A00E241F8 /* Debug */,
+				321A729127785E0A00E241F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
